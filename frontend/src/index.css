@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* Prevent scrolling the whole body */
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 70vw; /* Map takes 70% width */
+  float: left;
+}
+
+.controls-panel {
+  width: 20vw; /* Controls take 20% width */
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ccc;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  overflow-y: auto; /* Enable scrolling for controls if needed */
+  max-height: 100vh;
+}
+
+.data-panel {
+  width: 30vw; /* Data panel takes 30% width */
+  padding: 15px;
+  background-color: #f0f0f0;
+  overflow-y: auto; /* Enable scrolling for data if needed */
+  max-height: 100vh;
+}
+
+h2, h3 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.control-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+select, input[type="range"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+input[type="range"] {
+  margin-top: 5px;
+}
+
+#current-year-display {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+/* D3 Chart Specific Styles */
+.bar {
+  transition: fill 0.3s ease;
+}
+
+.bar:hover {
+  fill: #88ccff;
+}
+
+/* Legend Styling */
+.legend {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.legend-color-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000;
+  margin-right: 8px;
+  vertical-align: middle;
+}

@@ -1,0 +1,46 @@
+/* .app-container {
+  display: flex;
+  height: 100vh;
+  }
+  
+  .sidebar {
+  width: 300px;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border-right: 1px solid #ccc;
+  }
+  
+  .map-container {
+  flex: 1;
+  }
+  
+  .controls {
+  margin-bottom: 20px;
+  }
+  
+  .controls label {
+  display: block;
+  margin-top: 10px;
+  }
+  
+  .controls select,
+  .controls input[type="range"] {
+  width: 100%;
+  }
+  
+
+  .tab-buttons {
+    margin: 12px 0;
+    }
+    .tab-buttons button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    border: 1px solid #aaa;
+    background: #f0f0f0;
+    cursor: pointer;
+    }
+    .tab-buttons button.active {
+    font-weight: bold;
+    background-color: #ddd;
+    } */

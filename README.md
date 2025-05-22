@@ -22,8 +22,8 @@ cmd: npm start
 
 Run frontend:
 -------------
-1) Open another terminal and Come back to the root level and enter front end folder (react-frontend) and install dependencies:
-a) cd react-frontend
+1) Open another terminal and Come back to the root level and enter front end folder (frontend) and install dependencies:
+a) cd frontend
 b) npm install
 
 2) Run the application:

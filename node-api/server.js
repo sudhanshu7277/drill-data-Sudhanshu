@@ -574,21 +574,3 @@ app.get('/api/drillholes', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
-
-
-
-
-// const express = require('express');
-// const cors = require('cors');
-// const featuresRoutes = require('./routes/features');
-
-// const app = express();
-// app.use(cors());
-// app.use(express.json());
-
-// app.use('/api/features', featuresRoutes);
-
-// const PORT = 2000;
-// app.listen(PORT, () => {
-//   console.log(`Node API wrapper running at http://localhost:${PORT}`);
-// });
