@@ -1,16 +1,11 @@
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs').promises;
-const path = require('path');
-
 const app = express();
 const port = 3001;
-
-app.use(cors()); // Enable Cross-Origin Resource Sharing
+app.use(cors());
 
 app.get('/api/drillholes', async (req, res) => {
   try {
-    // const data = await fs.readFile(path.join(__dirname, 'data', 'drillholes.json'), 'utf8');
     const data = {
       "type": "FeatureCollection",
       "name": "Faraday_CC_collars",
