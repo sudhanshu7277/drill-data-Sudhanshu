@@ -3,13 +3,14 @@ displaying drill  data
 
 step to run the application:
 
+1) Clone the git repo :
+
+cmd: git clone https://github.com/sudhanshu7277/drill-data-Sudhanshu.git
+
 Run backend :
 -------------
-1) Clone the git repo : https://github.com/sudhanshu7277/drill-data-Sudhanshu.git
 
-cmd: git clone
-
-2) Change directory to backend/server (node-api) and install dependencies:
+1) Change directory to backend/server (node-api) and install dependencies:
 
 a) cmd: cd node-api
 b) npm install
