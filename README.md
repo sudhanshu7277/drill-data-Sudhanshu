@@ -28,3 +28,4 @@ b) npm install
 
 2) Run the application:
 a) npm start
+b) use the url : http://localhost:3000
